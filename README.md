@@ -27,7 +27,7 @@ A modern Flask web app that accepts either an injury image (real, not fake/AI-ge
    ```bash
    python app.py
    ```
-5. Open your browser to [http://127.0.0.1:5000](http://127.0.0.1:5000)
+5. Open your browser to http://127.0.0.1:5000
 
 ## Security Notes
 - `app.secret_key` is for Flask session security. It should be a random string and **must NOT be your OpenAI API key**.
